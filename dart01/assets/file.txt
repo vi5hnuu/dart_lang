@@ -1,0 +1,11 @@
+Concurrency and parallelism are concepts in computer science related to the execution of multiple tasks or processes, but they differ in how they handle and manage these tasks.
+
+Concurrency refers to the ability of different parts or units of a system, algorithm, or program to be executed out of order or in partial order, without affecting the final outcome. It deals with handling multiple tasks or processes at the same time, giving the appearance of simultaneous execution. In a concurrent system, tasks can start, run, and complete independently, but they might not necessarily run simultaneously. Concurrency is more about the design and structure of programs to handle multiple tasks concurrently, often by using techniques like threads, coroutines, or asynchronous programming.
+
+Parallelism, on the other hand, involves the simultaneous execution of multiple tasks or processes, where computations are performed simultaneously in order to increase speed and efficiency. It is about actually executing multiple tasks literally at the same time by utilizing multiple processors, cores, or resources. Parallelism aims to divide a task into smaller sub-tasks and run them concurrently to achieve faster processing.
+
+In summary:
+
+Concurrency deals with the design and structure of programs to handle multiple tasks concurrently without necessarily running them simultaneously.
+Parallelism involves the simultaneous execution of multiple tasks or processes to improve performance by running them literally at the same time, typically utilizing multiple processors or cores.
+It's important to note that while both concurrency and parallelism involve handling multiple tasks, they address different aspects: concurrency focuses on the organization and management of tasks, while parallelism is about the simultaneous execution of these tasks to improve performance. In some cases, concurrency and parallelism can be used together to create efficient and scalable systems.
